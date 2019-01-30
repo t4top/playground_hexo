@@ -1,0 +1,36 @@
+@import "nib"
+@import "_variables"
+@import "base"
+
+@import "page"
+
+.main
+  background-color: color_blog_bg
+  h1
+    margin-bottom: 20px
+  .post
+    padding-bottom: 20px
+  .excerpt
+    background-color: color_blog_post_bg
+    border: 1px solid color_blog_post_border_line
+    box-shadow: 0 1px 7px color_blog_post_border_shadow
+    display: grid
+    grid-template-columns: 200px repeat(auto-fit, minmax(350px, 1fr))
+    grid-gap: 16px
+    @media mq_mobile
+      grid-gap: 2px
+      grid-template-columns: auto
+      grid-template-rows: auto auto
+  .excerpt_side
+    align-self: center
+  .excerpt_img
+    width: 100%
+  .excerpt_content
+    padding: 20px
+    font-size: 16px
+    line-height: 20px
+    h1
+      font-size: 1.2rem
+      margin: 5px 0
+  .excerpt_link
+    font-size: 1.5rem

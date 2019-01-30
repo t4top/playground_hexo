@@ -1,0 +1,58 @@
+@import "nib"
+@import "_variables"
+@import "base"
+
+@import "page"
+
+.main
+  p:first-letter 
+    font-size: inherit
+
+#contact_form
+  font-size: 14px
+  p
+    line-height: 16px
+  div
+    padding: 10px
+  label
+    display: block
+    font-weight: 700
+  input, textarea
+    border: 1px solid color_border_line
+    padding: 5px
+    width: 90%
+    max-width: 500px
+    &.input_error
+      border: 1px solid color_contact_error
+    &:valid
+      border: 1px solid color_border_line
+    &:valid + .error_msg
+      display: none
+  textarea
+    font-size: 16px
+    height: 150px
+  button
+    font-size: 16px
+    font-weight: 700
+    padding: 10px 20px
+    border: 1px solid color_contact_btn_hover
+    background-color: color_contact_btn
+    color: color_contact_btn_text
+    &:hover
+      background-color: color_contact_btn_hover
+    &:disabled
+      background: color_disabled
+      border: 1px solid color_disabled
+  #newsletter
+    width: 18px
+    height: 18px
+    vertical-align: middle
+  .error_msg
+    color: color_contact_error
+    padding: 0
+
+.required
+  color: color_contact_error
+
+.hideme
+  display: none

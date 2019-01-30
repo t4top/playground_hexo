@@ -1,0 +1,118 @@
+@import "nib"
+@import "_variables"
+@import "base"
+
+body
+  grid-template-columns: auto
+  grid-template-rows: 85px 2fr 3fr 80px
+  grid-template-areas: 'navbar' 'header' 'main' 'footer'
+  grid-gap: 10px
+
+a
+  color: color_home_link
+  &:hover, &:focus
+    color: color_home_link_hover
+    text-decoration: underline
+
+.bg
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  overflow: hidden
+  z-index: -1
+  background-color: color_bg
+  -webkit-filter: grayscale(100%)
+  filter: grayscale(100%)
+  @media mq_mobile
+    background: url("/img/wip.jpg") center center / cover no-repeat
+
+#bg_video
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  @media (min-aspect-ratio: 16/9)
+    height: 300%
+    top: -100%
+  @media (max-aspect-ratio: 16/9)
+    width: 300%
+    left: -100%
+  @media mq_mobile
+    display: none
+
+.navbar
+  display: grid
+  grid-template-columns: auto
+  align-items: center
+  justify-items: right
+  text-align: right
+  padding: 5px 30px
+  background-color: transparent
+
+.header
+  display: grid
+  align-items: center
+  justify-items: center
+  text-align: center
+  h1
+    margin-bottom: 50px
+    font-size: 6vw
+    text-shadow: 2px 2px transparent, 5px 5px color_shadow
+    color: color_top_title
+
+.btn
+  border-radius: 100px
+  padding: 0.8rem 3rem
+  text-decoration: none
+  font-size: 18px
+  font-weight: 700
+  color: color_home_btn
+  background-color: color_home_btn_hover
+  opacity: 0.5
+  &:hover, &:focus
+    color: color_home_btn_hover
+    background-color: color_home_btn
+    opacity: 1
+
+.navbar, .title
+  a:hover, a:focus
+      text-decoration: none
+
+.main
+  display: grid
+  align-items: center
+  justify-items: center
+
+.thumbs
+  text-align: center
+  -webkit-perspective: 1000px
+  perspective: 1000px
+  a
+    color: color_text
+    &:hover, &:focus
+      text-decoration: none
+
+.thumb
+  text-align: center
+  padding: 20px
+  box-shadow: 0 1px 5px color_shadow
+  border: 1px solid color_border_line
+  border-radius: 15px
+  background-color: color_thumb_bg
+  display: inline-block
+  width: 350px
+  margin: 1em
+  transform: rotateY(0deg) rotateX(5deg)
+  @media mq_mobile
+    margin: 1em 0
+  &:hover, &:focus
+    transform: rotateY(0deg) rotateX(-10deg)
+    transition: transform 0.4s ease-out 
+
+img
+  max-width: 100%
+  border: 0
+  border-radius: 50%
