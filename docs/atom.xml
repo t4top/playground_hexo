@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>akinbosoyezaimoglu.com</title>
+  
+  <subtitle>Online home for the Akinbosoye Zaimoglu&#39;s</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.akinbosoyezaimoglu.com/"/>
+  <updated>2019-01-30T00:36:41.017Z</updated>
+  <id>https://www.akinbosoyezaimoglu.com/</id>
+  
+  <author>
+    <name>Temitope</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.akinbosoyezaimoglu.com/blogs/2019/01/30/hello-world/"/>
+    <id>https://www.akinbosoyezaimoglu.com/blogs/2019/01/30/hello-world/</id>
+    <published>2019-01-30T00:36:41.017Z</published>
+    <updated>2019-01-30T00:36:41.017Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My nice post</title>
+    <link href="https://www.akinbosoyezaimoglu.com/blogs/2019/01/05/my-nice-post/"/>
+    <id>https://www.akinbosoyezaimoglu.com/blogs/2019/01/05/my-nice-post/</id>
+    <published>2019-01-05T13:34:24.000Z</published>
+    <updated>2019-01-06T21:54:40.245Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adding-Content"><a href="#Adding-Content" class="headerlink" title="Adding Content"></a>Adding Content</h1><p>Content is king may be a cliched line. But it is true now more so than ever before. There are many more websites now than there ever were before. You name a niche, any niche and it is bound to be saturated to the hilt with websites producing content about said niche. WordPress is a very profitable niche. Why? 50% of websites use it and many of them are new to WP. WordPress newbies and even intermediate level users require a few resources to help them get started up and make changes to their WordPress sites, not too dissimilar to the content on Colorlib 😉 But a website like Colorlib works well and generates revenue only when we offer value to our readers.</p><p>We publish a great number of articles on premium WordPress themes and should you choose to buy one of them after clicking on our links we receive a small commission on your purchase. But truth be told, our most popular and widely read articles aren’t the ones that describe premium WordPress themes or plugins, rather they are WordPress tutorials and posts dedicated to free themes, plugins and other WordPress related articles. Because it is only when we offer value to readers that our site grows.</p><p>So based on your site’s niche and your expertise,  you need to produce content that genuinely offers value to would be readers. If you intend to create your site purely for monetary purposes, it will not be successful in the long run. No wait a minute, it may still be profitable but certainly not as successful as it could have been had you tried to genuinely help your audiences. So focus on good content.</p><p>Pick your niche and offer great value to your readers. And watch your traffic grow steadily and if you are lucky, perhaps even go through the roof!</p><p>So how do you publish your content on WordPress? What are the formats available to you apart from just plain ol’ text?</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Adding-Content&quot;&gt;&lt;a href=&quot;#Adding-Content&quot; class=&quot;headerlink&quot; title=&quot;Adding Content&quot;&gt;&lt;/a&gt;Adding Content&lt;/h1&gt;&lt;p&gt;Content is king may be
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

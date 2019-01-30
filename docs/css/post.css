@@ -1,0 +1,337 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: #111;
+}
+body {
+  width: 100%;
+  grid-gap: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: grid;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.navbar {
+  grid-area: navbar;
+}
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
+.footer {
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.footer .footer_copyright {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+.footer .footer_links {
+  text-align: right;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: #111;
+}
+body {
+  width: 100%;
+  grid-gap: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: grid;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.navbar {
+  grid-area: navbar;
+}
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
+.footer {
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.footer .footer_copyright {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+.footer .footer_links {
+  text-align: right;
+}
+body {
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 2fr 4fr 80px;
+  grid-template-areas: 'header header' 'main sidebar' 'footer footer';
+}
+@media screen and (max-width: 768px) {
+  body {
+    grid-template-columns: auto;
+    grid-template-rows: 2fr auto auto 80px;
+    grid-template-areas: 'header' 'main' 'sidebar' 'footer';
+  }
+}
+.header {
+  display: block;
+  grid-template-columns: auto;
+  grid-template-rows: 85px auto;
+  background: url("/img/wip.jpg") center center/cover no-repeat;
+}
+.title {
+  text-align: left;
+  line-height: 150px;
+  padding: 30px 20px;
+}
+.title h1 {
+  font-family: 'Cookie', cursive;
+  font-size: 100pt;
+  color: #b85b3f;
+  text-shadow: 3px 3px #e8e3c7;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-items: left;
+  padding-right: 30px;
+  background-color: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #d9d9d9;
+}
+.navbar .logo {
+  padding-left: 30px;
+}
+.navbar .nav {
+  display: grid;
+  justify-items: right;
+  text-align: right;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+  padding: 7px 15px;
+}
+.navbar a:hover {
+  color: #f1f1f1;
+  background-color: #111;
+  border-radius: 5px;
+}
+.navbar a.active_link {
+  color: #f1f1f1;
+  background-color: #111;
+  border-radius: 5px;
+}
+.sidenav_open {
+  display: none;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .sidenav_open {
+    display: block;
+  }
+}
+#sidenav {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 60%;
+  border-radius: 0 0 0 15px;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgba(0,0,0,0.8);
+  justify-items: center;
+  text-align: center;
+}
+#sidenav a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  text-shadow: 0 1px rgba(0,0,0,0.8);
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  padding: 10px;
+}
+#sidenav a:hover {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  background-color: #008000;
+}
+#sidenav .sidenav_close {
+  font-size: 40px;
+  text-align: right;
+  padding-right: 40px;
+}
+#sidenav .sidenav_close:hover {
+  background-color: transparent;
+}
+.main {
+  line-height: 30px;
+  padding: 30px 45px;
+}
+.main > p:first-letter {
+  font-size: 200%;
+}
+.main > p ~ p:first-letter {
+  font-size: 20px;
+}
+.article_heading {
+  word-break: break-all;
+}
+.article_header,
+.article_footer,
+.article_meta {
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 20px 0;
+}
+.article_share strong {
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .article_share strong {
+    display: block;
+  }
+}
+.article_share a {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 10px;
+}
+.article_share .article_share_facebook {
+  color: #3a559f;
+}
+.article_share .article_share_twitter {
+  color: #1bb2e9;
+}
+.article_share .article_share_pinterest {
+  color: #cb2027;
+}
+.article_meta,
+.excerpt_meta {
+  font-size: 12px;
+  line-height: 16px;
+}
+.article_meta .meta_author,
+.excerpt_meta .meta_author,
+.article_meta .meta_date,
+.excerpt_meta .meta_date,
+.article_meta .meta_comment,
+.excerpt_meta .meta_comment {
+  display: block;
+}
+.excerpt_more {
+  display: block;
+}
+.sidebar {
+  padding: 20px;
+}
+.footer a {
+  color: #164b78;
+}
+.footer a:hover,
+.footer a:focus {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
