@@ -43,28 +43,6 @@ hexo.extend.helper.register('page_nav', function() {
   return result;
 });
 
-hexo.extend.helper.register('doc_sidebar', function(className) {
-  var type = this.page.canonical_path.split('/')[0];
-  var sidebar = this.site.data.sidebar[type];
-  var path = pathFn.basename(this.path);
-  var result = '';
-  var self = this;
-  var prefix = 'sidebar.' + type + '.';
-
-  _.each(sidebar, function(menu, title) {
-    result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
-
-    _.each(menu, function(link, text) {
-      var itemClass = className + '-link';
-      if (link === path) itemClass += ' current';
-
-      result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
-    });
-  });
-
-  return result;
-});
-
 hexo.extend.helper.register('header_menu', function(className) {
   var menu = this.site.data.menu;
   var result = '';
@@ -141,18 +119,6 @@ hexo.extend.helper.register('canonical_path_for_nav', function() {
   }
   return '';
 
-});
-
-hexo.extend.helper.register('lang_name', function(lang) {
-  var data = this.site.data.languages[lang];
-  return data.name || data;
-});
-
-hexo.extend.helper.register('disqus_lang', function() {
-  var lang = this.page.lang;
-  var data = this.site.data.languages[lang];
-
-  return data.disqus_lang || lang;
 });
 
 hexo.extend.helper.register('hexo_version', function() {
