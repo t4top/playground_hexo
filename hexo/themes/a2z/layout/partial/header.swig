@@ -12,7 +12,7 @@
   <header class="header">
     <nav class="navbar">
       <div class="logo">
-        <a href="/" title="Home">AkinbosoyeZaimoglu</a>
+        <a href="{{ url_for('/') }}" title="Home">AkinbosoyeZaimoglu</a>
       </div>
       <div class="nav">
       <a class="sidenav_open" onclick="toggleSideNav()"><i class="fa fa-bars"></i><!--&#9776;--></a>
