@@ -6,19 +6,19 @@
 </div>
 <div class="main">
   <div class="thumbs">
-      <a href="/ozlem">
+      <a href="{{ url_for('/ozlem') }}">
           <div class="thumb">
               <img src="img/wip.jpg" alt="Ozlem">
               <h2>Ozlem</h2>
           </div>
       </a>
-      <a href="/deniz">
+      <a href="{{ url_for('/deniz') }}">
           <div class="thumb">
               <img src="img/wip.jpg" alt="Pelumi Deniz">
               <h2>Pelumi Deniz</h2>
           </div>
       </a>
-      <a href="/temi">
+      <a href="{{ url_for('/temi') }}">
           <div class="thumb">
               <img src="img/wip.jpg" alt="Temi">
               <h2>Temi</h2>

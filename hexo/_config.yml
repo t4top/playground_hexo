@@ -13,8 +13,8 @@ keywords: Akinbosoye Zaimoglu
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.akinbosoyezaimoglu.com
-root: /
+url: https://t4top.github.io/playground_hexo/
+root: /playground_hexo/
 permalink: blogs/:year/:month/:day/:title/
 
 # Directory

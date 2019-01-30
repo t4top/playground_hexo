@@ -206,7 +206,7 @@ body {
   display: block;
   grid-template-columns: auto;
   grid-template-rows: 85px auto;
-  background: url("/img/wip.jpg") center center/cover no-repeat;
+  background: url("/playground_hexo/img/wip.jpg") center center/cover no-repeat;
 }
 .title {
   text-align: left;

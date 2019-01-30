@@ -90,7 +90,7 @@ a:focus {
 }
 @media screen and (max-width: 768px) {
   .bg {
-    background: url("/img/wip.jpg") center center/cover no-repeat;
+    background: url("/playground_hexo/img/wip.jpg") center center/cover no-repeat;
   }
 }
 #bg_video {

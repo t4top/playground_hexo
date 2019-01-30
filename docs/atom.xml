@@ -3,11 +3,11 @@
   <title>akinbosoyezaimoglu.com</title>
   
   <subtitle>Online home for the Akinbosoye Zaimoglu&#39;s</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/playground_hexo/atom.xml" rel="self"/>
   
-  <link href="https://www.akinbosoyezaimoglu.com/"/>
+  <link href="https://t4top.github.io/playground_hexo/"/>
   <updated>2019-01-30T00:36:41.017Z</updated>
-  <id>https://www.akinbosoyezaimoglu.com/</id>
+  <id>https://t4top.github.io/playground_hexo/</id>
   
   <author>
     <name>Temitope</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.akinbosoyezaimoglu.com/blogs/2019/01/30/hello-world/"/>
-    <id>https://www.akinbosoyezaimoglu.com/blogs/2019/01/30/hello-world/</id>
+    <link href="https://t4top.github.io/playground_hexo/blogs/2019/01/30/hello-world/"/>
+    <id>https://t4top.github.io/playground_hexo/blogs/2019/01/30/hello-world/</id>
     <published>2019-01-30T00:36:41.017Z</published>
     <updated>2019-01-30T00:36:41.017Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>My nice post</title>
-    <link href="https://www.akinbosoyezaimoglu.com/blogs/2019/01/05/my-nice-post/"/>
-    <id>https://www.akinbosoyezaimoglu.com/blogs/2019/01/05/my-nice-post/</id>
+    <link href="https://t4top.github.io/playground_hexo/blogs/2019/01/05/my-nice-post/"/>
+    <id>https://t4top.github.io/playground_hexo/blogs/2019/01/05/my-nice-post/</id>
     <published>2019-01-05T13:34:24.000Z</published>
     <updated>2019-01-06T21:54:40.245Z</updated>
     

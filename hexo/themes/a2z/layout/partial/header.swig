@@ -1,11 +1,11 @@
 {% if page.layout == 'index' %}
   <nav class="navbar">
-    <a href="/contact" class="btn" title="Get in touch">Contact Us</a>
+    <a href="{{ url_for('/contact') }}" class="btn" title="Get in touch">Contact Us</a>
   </nav>
   <header class="header">
     <div class="title">
       <h1>Welcome to our World</h1>
-      <a href="/blogs" class="btn" title="Read more about us">Read More ...</a>
+      <a href="{{ url_for('/blogs') }}" class="btn" title="Read more about us">Read More ...</a>
     </div>
   </header>
 {% else %}
