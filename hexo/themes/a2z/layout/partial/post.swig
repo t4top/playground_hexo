@@ -12,6 +12,7 @@
       {% endif %}
     </span>
   {% endif %}
+  {{ partial('img', {post: post, excerpt: true}) }}
   {{ page_anchor(post.content) }}
   <span class="article_meta">
     {{ partial('meta', {post: post}) }}
