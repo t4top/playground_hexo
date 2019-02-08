@@ -55,9 +55,8 @@ function addListener(obj, evt, callback) {
 
 window.onload = function(e) { 
   addListener($("btn_submit"), "click", function(e) {
-    // event.preventDefault();
-    // if (validateInput()) 
-    sendData();
+    event.preventDefault();
+    if (validateInput()) sendData();
     return false;
   });
   addCustomValidity($("name"), "Name is required");
