@@ -13,13 +13,14 @@ keywords: Akinbosoye Zaimoglu
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://t4top.github.io/playground_hexo/
-root: /playground_hexo/
+url: https://t4top-playground-hexo.netlify.com
+root: /
 permalink: blogs/:year/:month/:day/:title/
 
 # Directory
 source_dir: source
 public_dir: public
+image_dir: uploads
 tag_dir: tags
 archive_dir: blogs
 category_dir: categories
