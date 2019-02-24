@@ -7,7 +7,6 @@ sections:
 - type: document
   path: hexo/source/_posts
   label: Post
-  match: "**/*"
 - type: directory
   path: hexo
   label: Hexo
