@@ -6,5 +6,8 @@ categories:
 comments: false
 layout:
 author:
-thumb: 
+toc: false
+thumbnail:
+coverimage:
+description:
 ---
