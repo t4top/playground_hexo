@@ -1,11 +1,18 @@
 ---
 label: Post
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
   type: field_group
+  fields:
+  - type: text
+    name: title
+    label: Title
+    description: Set a title of the post
+    config:
+      required: true
   hidden: false
   default: ''
 - name: author
