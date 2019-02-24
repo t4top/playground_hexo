@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: hexo/source/_posts
+  label: Post
+  match: "**/*"
 - type: directory
   path: hexo
   label: Hexo
