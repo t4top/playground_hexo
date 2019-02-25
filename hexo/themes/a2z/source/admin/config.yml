@@ -4,13 +4,13 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "source/uploads"
+media_folder: "hexo/source/uploads"
 public_folder: "/uploads"
 
 collections:
   - name: "post"
     label: "Blog Post" 
-    folder: "source/_posts"
+    folder: "hexo/source/_posts"
     create: true
     slug: "{{slug}}"
     fields:
@@ -32,9 +32,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "page"
     label: "Page" 
-    folder: "source"
+    folder: "hexo/source"
     create: true
-    slug: "/{{slug}}/index.md"
+    slug: "{{slug}}/index.md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
